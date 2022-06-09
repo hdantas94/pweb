@@ -37,6 +37,7 @@
                return (
 
                   <div>
+                     <h1>{this.props.titulo}</h1>
 
                      <table id="tabela" border="1">
 
@@ -67,9 +68,7 @@
 
             render(){
                 return(
-                    <div>
-                       <h1>Tabela de Cana</h1> 
-                    </div>
+                      <h1>{this.props.titulo}</h1>
                 )
             }
          }
@@ -111,7 +110,7 @@
 
          ReactDOM.render(
 
-            <TabelaBebidas/>
+            <TabelaBebidas titulo="Tabela da Cana"/>
 
             ,
 
